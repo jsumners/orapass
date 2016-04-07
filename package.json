@@ -1,0 +1,36 @@
+{
+  "name": "orapass",
+  "version": "0.1.0",
+  "description": "A small library for generating Oracle database password hashes",
+  "homepage": "https://github.com/jsumners/orapass",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "oracle",
+    "crypto"
+  ],
+  "author": "James Sumners <james.sumners@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsumners/orapass.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.7.0",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-mocha": "^2.2.0",
+    "md5": "^2.1.0",
+    "mocha": "^2.4.5",
+    "pbkdf2": "^3.0.4",
+    "sha1": "^1.1.1",
+    "sha512": "0.0.1"
+  },
+  "dependencies": {}
+}
