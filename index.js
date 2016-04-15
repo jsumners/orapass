@@ -31,7 +31,7 @@ function alterTwelve(username, password, r2) {
 function alterTenEleven(username, password) {
   const thash = ten(username, password);
   return eleven(password).then((hash) =>
-    `alter user ${username} identified by values '${hash};${thash}`
+    `alter user ${username} identified by values '${hash};${thash}'`
   );
 }
 
