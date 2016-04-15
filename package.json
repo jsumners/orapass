@@ -1,6 +1,6 @@
 {
   "name": "orapass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small library for generating Oracle database password hashes",
   "homepage": "https://github.com/jsumners/orapass",
   "main": "index.js",
